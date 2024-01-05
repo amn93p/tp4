@@ -1,0 +1,375 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.subsection div {
+	border-right: 1px solid #ccc;
+	padding-right: 10px;
+}
+
+/* Styles des cartes */
+.card {
+	border-radius: 11px;
+	text-align: center;
+	border: solid 1px grey;
+	width: 303px;
+	height: 200px;
+	background: #ffffff;
+	box-shadow: 0px 2px 10px 6px #4545456c;
+}
+
+/* Styles du bouton "Mon compte" */
+.moncompte {
+	width: 50px;
+	height: 50px;
+	background-color: #67dcff;
+}
+
+#moncompte p {
+	margin-left: -70px;
+}
+
+/* Styles du texte "Voir" */
+.voir {
+	float: right;
+	margin-top: -4px;
+	color: #7ce1ff;
+}
+
+/* Styles de l'image "robe" */
+#robe {
+	float: left;
+}
+
+/* Styles de l'image "escarpin" */
+#escarpin {
+	float: left;
+}
+
+/* Styles de l'image "chemise" */
+#chemise {
+	float: left;
+	margin-left: 4px;
+}
+
+/* Styles du titre principal */
+h1 {
+	font-size: 50px;
+	margin-top: -7px;
+	font-weight: 200;
+	user-drag: none;
+	-webkit-user-drag: none;
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+
+/* Styles du deuxième bloc de texte */
+.bloc2 {
+	margin-left: 45px;
+}
+
+/* Styles du titre des cartes */
+.titre {
+	font-weight: 600;
+	background-color: #cfcfcf;
+	width: 314px;
+	line-height: 35px;
+	margin-top: -1px;
+	margin-left: -0.4px;
+	border-radius: 5px;
+}
+
+/* Styles des images "camion" et "échange" */
+.camion,
+.echange {
+	float: left;
+	margin-right: 10px;
+}
+
+/* Styles des textes "Produits Echangeables" et "Livraison sous 48h" */
+.pechange,
+.livraison {
+	width: 200px;
+	padding-top: 10px;
+	font-weight: 600;
+}
+
+/* Styles du dernier élément div dans la classe container */
+.container div:last-child {
+	border-right: none;
+}
+
+/* Styles des liens */
+a {
+	text-decoration: none;
+	color: whitesmoke;
+}
+
+/* Styles du conteneur principal */
+.container {
+	max-width: 60%;
+	margin: 0 auto;
+	box-shadow: 0px 2px 10px 6px #4545458c;
+	overflow: hidden;
+}
+
+/* Styles de l'image à côté des articles */
+.articles-img {
+	margin-right: 20px;
+}
+
+/* Styles du conteneur d'aide en position relative */
+.aide-container {
+	position: relative;
+	top: -4vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/* Styles de la section principale */
+main {
+	background-color: #efefef;
+}
+
+/* Styles du paragraphe "Besoin d'aide?" dans la classe paide */
+.paide .besoin {
+	position: relative;
+	top: -68px;
+}
+
+/* Styles de la classe paide */
+.paide {
+	color: #79dcf9;
+	font-size: 30px;
+	text-align: center;
+}
+
+/* Styles de la classe aide en position relative */
+.aide {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	position: relative;
+}
+
+/* Styles de l'image dans la classe aide */
+.aide img {
+	width: 200px;
+	position: absolute;
+	top: -95px;
+	height: auto;
+}
+
+/* Styles de l'image bandeau avec ajustements */
+.bandeau {
+	margin-top: -20px;
+	width: 100%;
+	transform: scale(1.05);
+}
+
+/* Styles du texte de numéro de téléphone dans la classe aide-phone */
+.aide-phone {
+	color: #79dcf9;
+	font-size: 20px;
+	position: absolute;
+	top: -20%;
+	z-index: 1;
+	left: 51%;
+	transform: translateX(-50%);
+}
+
+/* Styles pour les écrans de petite taille (moins de 768px) */
+@media (max-width: 768px) {
+	.logo {
+		float: none;
+	}
+}
+
+/* Styles de l'en-tête */
+header {
+	background-color: #d9d9d9;
+	color: black;
+	padding: 2vh;
+	height: 65px;
+}
+
+/* Styles du logo flottant à gauche avec marge et rembourrage */
+.logo {
+	float: left;
+	padding-right: 20px;
+}
+
+/* Styles de l'image avec désactivation du glissement */
+img {
+	user-drag: none;
+	-webkit-user-drag: none;
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+
+/* Styles du slogan avec marges négatives pour le positionnement */
+.slogan {
+	margin-left: 3.5vw;
+	margin-top: -3.5vh;
+	color: #de69bb;
+	font-weight: 600;
+}
+
+/* Styles pour le bouton "Mon compte" avec ajustements */
+#moncompte {
+	color: white;
+	background-color: #67dcff;
+	margin-left: 45vw;
+	margin-top: -11vh;
+	padding-bottom: 0.1%;
+	width: 31%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	border-style: none;
+}
+
+/* Styles pour le paragraphe dans le bouton "Mon compte" */
+#moncompte p {
+	line-height: 0.1px;
+}
+
+/* Styles pour le bouton "Articles" avec ajustements */
+#articles {
+	color: white;
+	background-color: #67dcff;
+	margin-left: 45vw;
+	margin-top: 1vh;
+	padding-bottom: 0.1%;
+	width: 25%;
+	height: 60%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	border-style: none;
+}
+
+/* Styles pour le paragraphe dans le bouton "Articles" */
+#articles p {
+	line-height: 0.1px;
+}
+
+/* Styles pour la barre de navigation avec fond coloré, padding et bordure inférieure */
+nav {
+	background-color: #67dcff;
+	padding: 1vh;
+	border-bottom: solid 1px;
+	position: relative;
+	z-index: 2;
+}
+
+/* Styles pour la liste non ordonnée dans la barre de navigation avec flexbox */
+nav ul {
+	display: flex;
+	justify-content: center;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+/* Styles pour les éléments de la liste dans la barre de navigation avec marges */
+nav li {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+/* Styles pour les liens dans la barre de navigation avec ajustements */
+nav a {
+	font-size: 20px;
+	text-decoration: none;
+	color: #333;
+	display: block;
+	padding: 1vh 2vw;
+}
+
+/* Styles pour les liens avec transformation et couleur */
+li a {
+	transform: scale(1);
+	color: white;
+}
+
+/* Styles pour les liens dans le pied de page au survol avec transition de couleur */
+footer a:hover {
+	color: #de69bb;
+	transition: 0.8s;
+}
+
+/* Styles pour les liens au survol avec transition de couleur */
+li a:hover {
+	transition: 0.5s;
+	background-color: #e024a8;
+}
+
+/* Styles pour les liens au survol avec transition de transformation */
+.paiement:hover,
+#paiement:hover,
+.card:hover,
+.camion:hover,
+.echange:hover,
+li a:hover,
+.activ:hover {
+	transition: transform 0.5s ease-in-out;
+	transform: scale(1.05);
+}
+
+/* Styles pour le texte au survol avec couleur */
+.voir:hover {
+	color: #4ca1ff;
+}
+
+/* Styles pour la section principale avec rembourrage */
+main {
+	padding: 2vh;
+}
+
+/* Styles pour les sections avec espace en bas */
+section {
+	margin-bottom: 2vh;
+}
+
+/* Styles pour les sous-sections avec affichage flex et espacement équitable */
+.subsection {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+/* Styles pour le texte "Paiement Sécurisé" avec couleur */
+.paiement {
+	color: #67dcff;
+	font-size: 20px;
+}
+
+.subsection p {
+	font-size: 18px;
+}
+
+/* Styles pour le pied de page avec bordure inférieure, affichage flex, espacement équitable, couleur de fond et rembourrage */
+footer {
+	border-bottom: solid 1px;
+	display: flex;
+	justify-content: center;
+	justify-content: space-evenly;
+	background-color: #67dcff;
+	padding: 2vh;
+	bottom: 0;
+	width: 96.6.5%;
+}
+
+/* Styles pour l'élément actif avec couleur de fond */
+.activ {
+	background-color: #e024a8;
+}
